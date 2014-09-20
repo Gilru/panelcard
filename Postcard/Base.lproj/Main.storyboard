@@ -75,6 +75,13 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i5O-xn-uEm"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R6o-Aa-kwr">
+                                <rect key="frame" x="10" y="116" width="143" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -84,6 +91,7 @@
                         <outlet property="EnterNameTextField" destination="lLf-05-Gmm" id="pIH-fs-VSi"/>
                         <outlet property="MessageLabel" destination="pEk-pE-bGy" id="v0r-ta-ktA"/>
                         <outlet property="mailButton" destination="5Of-xB-tZc" id="L8V-iR-zkB"/>
+                        <outlet property="nameLabel" destination="R6o-Aa-kwr" id="b5Z-y0-ta3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
